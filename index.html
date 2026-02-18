@@ -230,17 +230,24 @@
 
 <!-- Sticky Table Header -->
 <!-- developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com -->
-<!-- Live Preview available at https://tawhidurrahmandear.github.io/Sticky-Table-Header/ -->
+<!-- Live Preview available at https://tawhidurrahmandear.github.io/sticky-table-header/ -->
 
 <!-- Sticky Table Header CSS Code -->
 
 <style>
+  
+table.LockedHeaderExample {
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
 
 table.LockedHeaderExample thead th {
+  position: -webkit-sticky !important;
   position: sticky !important;
   top: 0 !important;
-  z-index: 2 !important;
+  z-index: 999 !important;
   background-color: yellow;
+  border-top: 1px solid #AAAAAA;
 }
 
 </style>
@@ -251,10 +258,10 @@ table.LockedHeaderExample thead th {
 table.LockedHeaderExample {
   width: 100%;
   text-align: center;
-  border-collapse: collapse;
 }
+
 table.LockedHeaderExample td, table.LockedHeaderExample th {
-  border: 2px solid #AAAAAA;
+  border: 1px solid #AAAAAA;
 }
 table.LockedHeaderExample thead {
   background: #DDDDDD;
@@ -262,6 +269,7 @@ table.LockedHeaderExample thead {
 table.LockedHeaderExample thead th {
   text-align: center;
 }
+  
 </style>
 
 <!-- HTML Table ends here -->
@@ -269,3 +277,8 @@ table.LockedHeaderExample thead th {
 <p style="padding: 20px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida rutrum. Sem et tortor consequat id porta nibh venenatis cras. A diam sollicitudin tempor id eu nisl. Malesuada proin libero nunc consequat. Sollicitudin tempor id eu nisl nunc mi ipsum. Lacus sed viverra tellus in. Tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra. Felis eget velit aliquet sagittis id. Neque sodales ut etiam sit. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Et ultrices neque ornare aenean euismod elementum. Ultrices gravida dictum fusce ut placerat. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Rhoncus urna neque viverra justo. Dignissim enim sit amet venenatis urna cursus. Duis convallis convallis tellus id interdum velit laoreet id.</p>
 
 <p style="padding: 20px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida rutrum. Sem et tortor consequat id porta nibh venenatis cras. A diam sollicitudin tempor id eu nisl. Malesuada proin libero nunc consequat. Sollicitudin tempor id eu nisl nunc mi ipsum. Lacus sed viverra tellus in. Tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra. Felis eget velit aliquet sagittis id. Neque sodales ut etiam sit. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Et ultrices neque ornare aenean euismod elementum. Ultrices gravida dictum fusce ut placerat. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Rhoncus urna neque viverra justo. Dignissim enim sit amet venenatis urna cursus. Duis convallis convallis tellus id interdum velit laoreet id.</p>
+
+<br>
+<br>
+
+<p>Live Preview with '<a title="Sticky Table Header CSS Code" href="https://www.devilhunter.net/2026/02/Sticky-Table-Header.html" target="_blank"><strong>Sticky Table Header CSS Code with fixed height and no scrollbar</strong></a>' at Dear Technology Magazine</p>
